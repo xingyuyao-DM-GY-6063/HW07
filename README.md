@@ -1,60 +1,17 @@
-# p5.js Template
+# HW07
+## text
+For this assignment, I choose the song **"Love Story"** by Taylor Swift.This song tells a classic romantic tale inspired by Romeo and Juliet, expressing themes of young love, determination, and a happy ending.
 
-This is a README file that can be used to describe and document your assignment.
+## Animation
+The animation visualizes lines from the song using dynamic text display. Each line of the lyrics appears rhythmically on the screen, with specific words like "I," "you," "me," and "love" highlighted in pink to emphasize the romantic essence of the song.动画使用动态文本显示来可视化歌曲中的歌词。歌词的每一行都有节奏地出现在屏幕上，“我”、“你”、“我”和“爱”等特定词以粉红色突出显示，以强调歌曲的浪漫本质。
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
+The text pulses in size to create a heartbeat effect, representing the emotions of the story. Additionally, the word "love" appears larger than other words, highlighting its central theme. The animation transitions between lines every 2 seconds, creating a lively reading experience of the song's lyrics.
 
 
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+![animation](ee0a29a037b1f13d9853c7b9da39621-1.png)
+
+## Background
+A semi-transparent image of a rose serves as the background, symbolizing love and romance. The transparency effect ensures that the text remains clearly visible while adding a layer of warmth and beauty to the visual presentation.
 
 
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+![background](e25787c31c81ef8e8f6edef3c5e9cac.png)
