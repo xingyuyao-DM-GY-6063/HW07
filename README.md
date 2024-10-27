@@ -3,7 +3,8 @@
 For this assignment, I choose the song **"Love Story"** by Taylor Swift.This song tells a classic romantic tale inspired by Romeo and Juliet, expressing themes of young love, determination, and a happy ending.
 
 ## Animation
-The animation visualizes lines from the song using dynamic text display. Each line of the lyrics appears rhythmically on the screen, with specific words like "I," "you," "me," and "love" highlighted in pink to emphasize the romantic essence of the song.动画使用动态文本显示来可视化歌曲中的歌词。歌词的每一行都有节奏地出现在屏幕上，“我”、“你”、“我”和“爱”等特定词以粉红色突出显示，以强调歌曲的浪漫本质。
+The animation visualizes lines from the song using dynamic text display. Each line of the lyrics appears rhythmically on the screen, with specific words like "I," "you," "me," and "love" highlighted in pink.
+
 
 The text pulses in size to create a heartbeat effect, representing the emotions of the story. Additionally, the word "love" appears larger than other words, highlighting its central theme. The animation transitions between lines every 2 seconds, creating a lively reading experience of the song's lyrics.
 
