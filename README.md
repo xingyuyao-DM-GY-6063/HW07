@@ -1,5 +1,5 @@
 # HW07
-## text
+## Text
 For this assignment, I choose the song **"Love Story"** by Taylor Swift.This song tells a classic romantic tale inspired by Romeo and Juliet, expressing themes of young love, determination, and a happy ending.
 
 ## Animation

@@ -14,24 +14,22 @@ function preload() {
   // Load text from the file using loadStrings
   textLines = loadStrings("love story.txt");
   // Load the background image
-  bgImage = loadImage("rose.png"); // Replace with your image filename
+  bgImage = loadImage("rose.png");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER, CENTER);
-  wordColor = color(255); // Default to white color
+  wordColor = color(255);
 }
 
 function draw() {
   background(0);
-  // Set the transparency of the background image (0 is fully transparent, 255 is fully opaque)
-  tint(255, 100); // Adjust second parameter to change transparency (150 is semi-transparent)
-
+  // Set the transparency of the background image
+  tint(255, 100);
   image(bgImage, 0, 0, width, height); // Display background image, scaled to fit the canvas
 
   if (textLines.length > 0) {
-    // Split the current line into words
     let words = textLines[index].split(" ");
 
     // Display each word with color, size, and position
@@ -46,13 +44,13 @@ function draw() {
 
         // Make "love" larger
         if (words[i] === "love") {
-          textSize(wordSize + 20); // Increase size specifically for "love"
+          textSize(wordSize + 30); // Increase size specifically for "love"
         } else {
           textSize(wordSize + 10); // Slightly larger for other pink words
         }
       } else {
-        fill(wordColor); // Default color (white)
-        textSize(wordSize); // Default size
+        fill(wordColor);
+        textSize(wordSize);
       }
 
       // Display the word
@@ -69,13 +67,10 @@ function draw() {
     if (wordSize < 32) isGrowing = true;
   }
 
-  // Change default color slightly to create a lively effect
-  wordColor = color(random(150, 255));
-
   // Change to the next line every 2 seconds
   if (millis() - lastChangeTime > interval && textLines.length > 0) {
-    index = (index + 1) % textLines.length; // Loop through lines
-    lastChangeTime = millis(); // Reset timer
+    index = (index + 1) % textLines.length; 
+    lastChangeTime = millis(); 
   }
 }
 
